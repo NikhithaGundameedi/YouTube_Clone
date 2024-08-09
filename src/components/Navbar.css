@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div > .MuiStack-root{
+padding:1rem 0.5rem 0.5rem 0.5rem;
+   position: sticky; 
+background-color: rgb(0, 0, 0);
+justify-content: space-between;
+top:0;
+}
+div > Link {
+    display:flex;
+    align-items: center;
+}
