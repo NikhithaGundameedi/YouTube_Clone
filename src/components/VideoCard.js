@@ -2,9 +2,7 @@ import { Card, CardMedia, CardContent, Typography, Checkbox } from '@mui/materia
 import React from 'react';
 import { Link } from 'react-router-dom';
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
-
 import { demoThumbnailUrl, demoChannelUrl, demoVideoUrl, demoVideoTitle, demoChannelTitle } from '../Assets/constants';
-
 export default function VideoCard({ video: { id: { videoId }, snippet } }) {
   return (
     <Card   p={2} sx={{ overflowY: 'auto', height: '90vh', flex: 1 }} 
@@ -13,7 +11,7 @@ export default function VideoCard({ video: { id: { videoId }, snippet } }) {
         <CardMedia
           image={snippet?.thumbnails?.high?.url || demoThumbnailUrl}
           alt={snippet?.title}
-          sx={{ width: 358, height: 190 }}
+          sx={{ width: 370, height: 190 }}
         />
       </Link>
       <CardContent sx={{ backgroundColor: '#1e1e1e', height: '100px' }}>

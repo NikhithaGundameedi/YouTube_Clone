@@ -6,7 +6,7 @@ const Videos = ({ videos }) => {
   console.log(videos);
 
   return (
-    <Stack direction="row" flexWrap="wrap" gap={2} justifyContent="flex-start" >
+    <Stack direction="row" flexWrap="wrap" gap={0.5}  justifyContent="center" >
       {
                 videos.map((item, index)=>(
                <Box key={index}>
