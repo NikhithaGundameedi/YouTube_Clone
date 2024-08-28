@@ -1,7 +1,5 @@
 import axios from 'axios';
-
 const BASE_URL = 'https://youtube-v31.p.rapidapi.com/search';
-
 const options = {
   method: 'GET',
   headers: {
@@ -9,13 +7,13 @@ const options = {
     'x-rapidapi-host': 'youtube-v31.p.rapidapi.com',
   },
 };
-
 export const fetchFromAPI = async (url) => {
   try {
     const { data } = await axios.get(`${BASE_URL}?${url}`, options); 
     console.log('successful');
     return data || {}; 
-  } catch (error) {
+  } 
+  catch (error) {
     console.error('Error fetching data:', error);
     return {}; 
   }

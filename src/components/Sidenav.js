@@ -1,7 +1,6 @@
 import React from 'react';
 import { categories } from '../Assets/constants';
 import { Box, Stack, Button, Typography } from '@mui/material';
-import './Sidenav.css';
 export default function Sidenav({ selectedCategory, setSelectedCategory }) {
   return (
     <Stack  direction="row"
