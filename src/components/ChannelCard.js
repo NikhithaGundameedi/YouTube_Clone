@@ -3,7 +3,6 @@ import { Box, CardContent, CardMedia, Card, Typography } from '@mui/material';
 import { Link } from 'react-router-dom';
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 import { demoProfilePicture } from '../Assets/constants';
-
 export default function ChannelCard({ channelDetail, marginTop }) {
   return (
     <Box sx={{

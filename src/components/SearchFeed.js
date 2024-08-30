@@ -16,7 +16,7 @@ export default function SearchFeed() {
         console.log(videos);
         console.log(searchTerm);
       });
-  }, [searchTerm]);
+  }, [searchTerm]); 
   return (
     <Box p={2} sx={{ overflowY: 'auto', height: '90vh', flex: 2, backgroundColor:'black'  }}>
       <Typography variant="h4" fontWeight="bold" mb={2} sx={{ color: 'white', gap: '3px' }}>
