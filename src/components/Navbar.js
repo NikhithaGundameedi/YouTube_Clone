@@ -6,10 +6,8 @@ import SearchBar from './SearchBar'
 export default function Navbar() {
   return (
     <div >
-      <Stack direction="row" >
-                <Link to='/'>
+      <Stack direction="row" >           
                 <img src={logo} alt="logo"  height="45"/>
-                </Link>
                 <SearchBar/>
         </Stack>
     </div>

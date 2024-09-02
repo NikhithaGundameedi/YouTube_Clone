@@ -10,7 +10,7 @@ const App = () => {
   return (
     <BrowserRouter>
       <Navbar />
-      <Box>
+      <Box> 
         <Routes>
           <Route path="/" element={<Feed />} />
           <Route path="/video/:id" element={<VideoDetail />} />
